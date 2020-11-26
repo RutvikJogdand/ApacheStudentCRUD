@@ -1,0 +1,29 @@
+.FormBox
+{
+    /* border: 1px solid black; */
+    margin-top: 60px;
+}
+
+.FormBox > input
+{
+    padding: 5px 10px;
+    width: 320px;
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+.FormBox > input:hover
+{
+    border-color: cornflowerblue;
+}
+
+.FormBox > input:focus
+{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.AddEditNewStudent
+{
+    margin-top: 50px;
+}
